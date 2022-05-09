@@ -28,7 +28,7 @@ document.getElementById('orbCost').innerHTML = nextCost;
 
 
 
-
+//Game Loop
 window.setInterval(function(){
     rgpClick(orbs)
     console.log(rgp)

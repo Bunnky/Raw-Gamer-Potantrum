@@ -4,8 +4,15 @@
         <link rel="stylesheet" type="text/css" href="interface.css" />
     </head>
     <body>
-        <button onclick="rgpClick(1)">Click for more R.G.P.</button>
-        <button onclick="buyRgpOrb()">Purchase R.G.P. Orb</button>
+        <div class="box">
+            <div class="btn button" onclick="rgpClick(1)">
+            <span>Click for more R.G.P.</span>
+        </div>
+    </div>
+        <div id="orbbut" onclick="buyRgpOrb()" padding-top="1%">
+            <span class="button">Purchase R.G.P. Orb</span>
+        </div>
+    
 
 
         <p>R.G.P.: <span style="color:darkgreen" id="rgp">0</span></p>
