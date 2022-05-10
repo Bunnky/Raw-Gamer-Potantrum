@@ -1,31 +1,47 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <link rel="stylesheet" type="text/css" href="interface.css" />
-    </head>
-    <body>
-        <div class="box">
-            <div class="btn button" onclick="rgpClick(1)">
-            <span>Click for more R.G.P.</span>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    
+    <title>Raw Gamer Potantrum ALPHA-1</title>
+    <meta name="description" content="Raw Gamer Potantrum">
+    <meta name="author" content="B_White">
+
+	<link rel="icon" href="favicon.ico" type="img/x-icon">
+	<link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="css/main.css" />
+</head>
+
+<body>
+    <noscript>
+        <div id="checkJavascript" style="position: absolute; height: 100%; width: 100%; font-size: 2vw; padding: 10%; color: white; background-color: black; z-index: 1000000;">
+            For some reason, your browser is having trouble loading this game. This game runs on javascript, and if you have an addon such as noscript, you may need to tell it to allow scripts from http://trimps.github.io, which is where this game is hosted.<br/><br/>
+            If you are not using any addons that might interfere with javascript, try using the latest versions of Chrome or Firefox. 
         </div>
-    </div>
-        <div id="orbbut" onclick="buyRgpOrb()" padding-top="1%">
-            <span class="button">Purchase R.G.P. Orb</span>
-        </div>
+    </noscript>
     
 
+    <div class="container-fluid">
+        <div class="row">
+          <div class="col-sm-4">
+            <div class="decoy" onclick="rgpClick(1)">
+                <img src="https://static.planetminecraft.com/files/avatar/3499143_1.png">
+            </div>
+          </div>
+        </div>
+    </div>
+    <br/>
+    <br/>
 
-        <p>R.G.P.: <span style="color:darkgreen" id="rgp">0</span></p>
+    <div id="orbbuy" onclick="buyRgpOrb()">
+        <span class="button">Purchase R.G.P. Orb</span>
+    </div>
 
+    <p>R.G.P.: <span style="color:darkgreen" id="rgp">0</span></p>
+    <p>R.G.P. Orbs: <span style="color:royalblue" id="orbs">0</span><br></p>
+    <p>Orb Cost: <span style="color:maroon" id="orbCost">10</span></p>
+    
+    <script type="text/javascript" src="js/main.js"></script>
+</body>
 
-        R.G.P. Orbs: <span style="color:royalblue" id="orbs">0</span><br>
-        Orb Cost: <span style="color:maroon" id="orbCost">10</span>
-
-
-
-
-
-        
-        <script type="text/javascript" src="main.js"></script>
-    </body>
 </html>
