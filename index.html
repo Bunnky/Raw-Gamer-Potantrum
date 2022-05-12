@@ -22,27 +22,25 @@
     
 
     <div class="container-fluid">
-        <div class="row">
-          <div class="col-sm-4">
+        <div class="col-xs-1">
+          <div class="row">
             <div class="block" onclick="rgpClick(1);">
                 <img id="tierimg" src="img/tier_0.png" style="height: 128px; width: 128px"/>
             </div>
-            <br/>
-            <br/>
-            <div class="col-xs-12" id="orbbuy" onclick="buyRgpOrb()">                
-                <div class="buyorb">Buy Orb</div>
+        </div>
+        <br/>
+        <br/>
+        <div class="row text-center">           
+                <div class="buyorb" id="orbbuy" onclick="buyRgpOrb()">Buy Orb</div>
+                <h5>Orb Cost: <span style="color:maroon" id="orbCost" >10</span></h4>            
+            <div class="row">
+                <h4>R.G.P.: <span style="color:darkgreen" id="rgp">0</span> [<span style="color:royalblue" id="orbs">0</span> per sec.]</span></p></h1>
             </div>
-            <br/>
-            <br/>
-            <div class="col-xs-3 text-center">
-              <h4>Orb Cost: <span style="color:maroon" id="orbCost" >10</span></h4>
-            </div>
-          </div>
         </div>
     </div>
 
-    <h1>R.G.P.: <span style="color:darkgreen" id="rgp">0</span></p></h1>
-    <h2>R.G.P. per second: <span style="color:royalblue" id="orbs">0</span><br></h2>
+
+    
     
     <script type="text/javascript" src="js/main.js"></script>
 </body>

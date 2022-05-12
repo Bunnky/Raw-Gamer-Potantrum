@@ -262,10 +262,10 @@ textarea {
 }
 
 .block {
-  transition: transform .2s; /* Animation */
+  transition-duration: 0ms;
   width: 128px;
   height: 128px;
-  padding: 2%;
+  padding: 8.33333333%;
 }
 
 .block:hover {
@@ -279,8 +279,6 @@ textarea {
 /* CSS */
 .buyorb {
   text-align: center;
-  width: 120px;
-  padding: 0.6em 2em;
   border: none;
   outline: none;
   color: rgb(255, 255, 255);
