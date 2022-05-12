@@ -265,7 +265,9 @@ textarea {
   transition-duration: 0ms;
   width: 128px;
   height: 128px;
-  padding: 8.33333333%;
+  position: relative;
+  padding-top: 5%;
+  padding-bottom: 5%;
 }
 
 .block:hover {
