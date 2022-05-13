@@ -261,25 +261,23 @@ textarea {
   }
 }
 
-.block {
+.tierBlock {
   transition-duration: 0ms;
   width: 128px;
   height: 128px;
-  position: relative;
-  padding-top: 5%;
-  padding-bottom: 5%;
 }
 
-.block:hover {
+.tierBlock:hover {
   transform: scale(1.1); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
 }
 
-.block:active {
+.tierBlock:active {
   transform: scale(1); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
 }
 
-/* CSS */
+
 .buyorb {
+  resize: none;
   text-align: center;
   border: none;
   outline: none;
@@ -288,6 +286,7 @@ textarea {
   cursor: pointer;
   position: relative;
   z-index: 0;
+  width: 15%;
   border-radius: 10px;
   user-select: none;
   -webkit-user-select: none;
