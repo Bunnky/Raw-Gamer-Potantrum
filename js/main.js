@@ -67,7 +67,7 @@ function changeTier(){
 
 function buyExpOrb(){
     var orbCost = Math.floor(10 * Math.pow(1.1,orbs));
-    var element = document.getElementById("orbbuy");
+    var button = document.getElementById("orbbuy");
 
     if (orbs <= orbCost && rgp >= orbCost){    
         orbs = orbs + 1;        //Add 1 Orb
@@ -77,7 +77,7 @@ function buyExpOrb(){
         document.getElementById('rgp').innerHTML = rgp;
         console.log("Bought Orb! Orbs:",orbs);    
     } else {
-        element.classList.toggle("no");
+        button.classList.toggle("no");
         console.log("Couldn't buy, not enough orbs:",orbs);
     }
 
@@ -91,11 +91,11 @@ function buyExpOrb(){
 //////////////////////////
 
 function unlockFarming() {
-    var div = document.getElementById("FarmingDiv");
+    var farmingdiv = document.getElementById("FarmingDiv");
 
-    if (tier >= 11 ) {
-      div.classList.remove("hidden-lg");
-      console.log("Removed!")
+    if (tier >= 3 ) {
+        farmingdiv.style.removeProperty('display');
+        console.log("Farming Unlocked!")
     }
   }
 

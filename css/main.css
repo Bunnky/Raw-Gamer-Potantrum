@@ -276,7 +276,7 @@ textarea {
 }
 
 
-.buyorb {
+.actionbut {
   color: rgb(255, 255, 255);
   background: #111;
   cursor: pointer;
@@ -289,7 +289,7 @@ textarea {
   touch-action: manipulation;
 }
 
-.buyorb:before {
+.actionbut:before {
   content: "";
   background: linear-gradient(
     45deg,
@@ -316,7 +316,7 @@ textarea {
   border-radius: 10px;
 }
 
-.buyorb:after {
+.actionbut:after {
   z-index: -1;
   content: "";
   position: absolute;
@@ -345,3 +345,7 @@ textarea {
   90% { transform: translate(1px, 2px) rotate(0deg); }
   100% { transform: translate(1px, -2px) rotate(-1deg); }
 }
+
+
+
+

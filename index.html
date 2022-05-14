@@ -8,7 +8,7 @@
     <meta name="author" content="B_White">
 
 	<link rel="icon" href="favicon.ico" type="img/x-icon">
-	<link rel="stylesheet" href="css/bootstrap.css">
+	<link rel="stylesheet" href="css/bootstrap_3.css">
     <link rel="stylesheet" type="text/css" href="css/main.css" />
 </head>
 
@@ -19,30 +19,98 @@
             If you are not using any addons that might interfere with javascript, try using the latest versions of Chrome or Firefox. 
         </div>
     </noscript>
-    
 
-    <div class="container" >
-        <div class="col-lg-4 ">
+    
+    <div class="container ">
+
+
+
+
+
+        <div class="col-lg-3 debugCols" style="padding-top: 1%">
+
 
             <div class="row tierBlock center-block " id="ClickDiv" onclick="rgpClick(1);">
                 <img id="tierimg" src="img/blocks/tier_0.png" style="height: 128px; width: 128px" />
             </div>
 
+
             <br/>
 
-            <div class="row text-center "id="OrbInfoDiv">           
-                <div class="buyorb center-block" id="orbbuy" onclick="buyExpOrb()">Buy Orb</div>
+
+            <div class="row text-center " id="OrbInfoDiv" style="padding-top: 1%">           
+                <div class="actionbut center-block" id="orbbuy" onclick="buyExpOrb()">Buy Orb</div>
                 <h5><img src="img/other/orb.gif" style="height: 10px; width: 10px"/> Orb Cost: <span style="color:maroon" id="orbCost" >10</span></h5>
             </div>
 
+
             <div class="row text-center " id="InfoDiv">
-                <h4>Tier: <span style="color:darkgreen" id="tier">1</span></h4>
-                <h3>R.G.P.: <span style="color:darkgreen" id="rgp">0</span></h3>
-                [<span style="color:royalblue" id="orbs">0</span> per sec.]</span></p></h4>
+                <p>
+                <h5>Tier: <span style="color:darkgreen" id="tier">1</span></h5>
+                <h2>R.G.P.: <span style="color:darkgreen" id="rgp">0</span></h2>
+                <h4>[<span style="color:royalblue" id="orbs">0</span> per sec.]</span></h4>
+                </p>
             </div>
+
+
         </div>
 
-        <div class="col-md-8 hidden-lg  " id="FarmingDiv">
+
+
+
+
+        <div class="col-lg-3 debugCols" id="FarmingDiv" style="display: none">
+
+
+            <div class="row tierBlock center-block ">
+                <img id="farmimg" src="img/blocks/tier_0.png" style="height: 128px; width: 128px" />
+            </div>
+            
+
+            <br/>
+
+
+            <div class="row text-center " style="padding-top: 1%">
+                <div class="actionbut center-block" id="orbbuy" onclick="buyExpOrb()">Plant Seed</div>
+                <h5><img src="img/other/orb.gif" style="height: 10px; width: 10px"/> Orb Cost: <span style="color:maroon" id="orbCost" >10</span></h5>
+            </div>
+
+
+            <div class="row text-center ">
+                <p>
+                <h3>Tool: <span style="color:darkgreen" id="tool">None</span></h3>
+                <h5>Orbs Produced: <span style="color:darkgreen" id="producing">0</span></h5>
+                </p>
+            </div>
+
+
+        </div>
+
+
+
+        
+        <div class="col-lg-3 tierBlock debugCols" id="FarmingDiv" style="display: none">
+            <h1>COMING SOON</h1>
+        </div>
+        <div class="col-lg-3 tierBlock debugCols" id="FarmingDiv" style="display: none">
+            <h1>COMING SOON</h1>
+        </div>
+        <div class="col-lg-3 tierBlock debugCols" id="FarmingDiv" style="display: none">
+            <h1 small>COMING SOON</h1>
+        </div>
+        <div class="col-lg-3 tierBlock debugCols" id="FarmingDiv" style="display: none">
+            <h1>COMING SOON</h1>
+        </div>
+        <div class="col-lg-3 tierBlock debugCols" id="FarmingDiv" style="display: none">
+            <h1>COMING SOON</h1>
+        </div>
+        <div class="col-lg-3 tierBlock debugCols" id="FarmingDiv" style="display: none">
+            <h1>COMING SOON</h1>
+        </div>
+        <div class="col-lg-3 tierBlock debugCols" id="FarmingDiv" style="display: none">
+            <h1>COMING SOON</h1>
+        </div>
+        <div class="col-lg-3 tierBlock debugCols" id="FarmingDiv" style="display: none">
             <h1>COMING SOON</h1>
         </div>
     </div>
