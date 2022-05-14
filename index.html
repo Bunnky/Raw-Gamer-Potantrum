@@ -21,9 +21,7 @@
     </noscript>
 
     
-    <div class="container ">
-
-
+    <div class="container-fluid" style="padding: 1%">
 
 
 
@@ -40,7 +38,7 @@
 
             <div class="row text-center " id="OrbInfoDiv" style="padding-top: 1%">           
                 <div class="actionbut center-block" id="orbbuy" onclick="buyExpOrb()">Buy Orb</div>
-                <h5><img src="img/other/orb.gif" style="height: 10px; width: 10px"/> Orb Cost: <span style="color:maroon" id="orbCost" >10</span></h5>
+                <h5><img src="img/other/orb.gif" style="height: 16px; width: 16px"/> Orb Cost: <span style="color:maroon" id="orbCost" >10</span></h5>
             </div>
 
 
@@ -48,7 +46,7 @@
                 <p>
                 <h5>Tier: <span style="color:darkgreen" id="tier">1</span></h5>
                 <h2>R.G.P.: <span style="color:darkgreen" id="rgp">0</span></h2>
-                <h4>[<span style="color:royalblue" id="orbs">0</span> per sec.]</span></h4>
+                <h4><span style="color:royalblue" id="orbs">0</span> per sec.</h4>
                 </p>
             </div>
 
@@ -57,13 +55,11 @@
 
 
 
-
-
-        <div class="col-lg-3 debugCols" id="FarmingDiv" style="display: none">
+        <div class="col-lg-3 debugCols" id="FarmingDiv" style="display: none; padding-top: 1%">
 
 
             <div class="row tierBlock center-block ">
-                <img id="farmimg" src="img/blocks/tier_0.png" style="height: 128px; width: 128px" />
+                <img id="farmimg" src="img/blocks/farm.gif" style="height: 128px; width: 128px" />
             </div>
             
 
@@ -71,15 +67,15 @@
 
 
             <div class="row text-center " style="padding-top: 1%">
-                <div class="actionbut center-block" id="orbbuy" onclick="buyExpOrb()">Plant Seed</div>
-                <h5><img src="img/other/orb.gif" style="height: 10px; width: 10px"/> Orb Cost: <span style="color:maroon" id="orbCost" >10</span></h5>
+                <div class="actionbut center-block" id="farmaction">Work the fields</div>
+                <h5><img src="img/other/hoe.gif" style="height: 16px; width: 16px"/> Durability: <span style="color:maroon" id="durability" >∞</span></h5>
             </div>
-
 
             <div class="row text-center ">
                 <p>
-                <h3>Tool: <span style="color:darkgreen" id="tool">None</span></h3>
-                <h5>Orbs Produced: <span style="color:darkgreen" id="producing">0</span></h5>
+                <h5>Farming: <span style="color:darkgreen" id="farmingtoggle">No</span></h5>
+                <h2>Tool: <span style="color:darkgreen" id="tool">None</span></h2>
+                <h4>Orbs Produced: <span style="color:darkgreen" id="producing">0</span></h4>
                 </p>
             </div>
 

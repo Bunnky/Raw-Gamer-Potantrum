@@ -1587,7 +1587,6 @@ pre code {
   padding-left: 15px;
   margin-right: auto;
   margin-left: auto;
-  padding: 1%;
 }
 @media (min-width: 768px) {
   .container {
@@ -6518,7 +6517,6 @@ button.close {
 /*! PROBABLY DEBUG STUFF HERE - B*/
 .debugRows {
   outline: blue solid 1px;
-  padding: 1%;
   float:center;
   overflow:hidden;
   }
@@ -6526,7 +6524,6 @@ button.close {
 .debugCols {
   outline: black solid 1px;
   background-color: #d5d5d5;
-  padding: 1%;
   float:left;
   overflow:hidden;
   }
