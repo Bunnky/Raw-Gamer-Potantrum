@@ -93,7 +93,7 @@ function buyExpOrb(){
 function unlockFarming() {
     var farmingdiv = document.getElementById("FarmingDiv");
 
-    if (tier >= 3 ) {
+    if (tier >= 11 ) {
         farmingdiv.style.removeProperty('display');
         console.log("Farming Unlocked!")
     }
